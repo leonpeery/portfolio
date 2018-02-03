@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    text-align: center;
+    color:#474747;
+}
+
+nav li{
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    padding: 5px;
+    color: white
+}
+
+header {
+    text-align: center;
+    background: url('../img/laptop.jpg') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    height: 980px;
+}
+
+.logo {
+    padding-top: 420px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+.blurb {
+    background-color: #909090;
+    height: 100px;
+    padding-top: 100px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.about-me {
+    margin-left: 150px;
+    margin-top: 160px;
+    padding: 50px;
+    height: 630px;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+#about-header {
+    margin-top:150px;
+    padding-top: 150px;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+#profile-image {
+    float: left;
+    padding-left: 240px;
+
+}
+
+#profile-blurb{
+    float: right;
+    width: 500px;
+    padding-right: 350px;
+}
+
+.portfolio-section {
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 130px;
+    
+}
+
+.contact-section {
+   font-family: 'EB Garamond', serif;
+   height: 730px;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+ 
+}
+
+form {
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    height: 200px;    
+}
+
+.form-row {
+    margin: 10px;
+}
+
+#submit-button {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cecece;
+}
+
+footer {
+    font-family: 'EB Garamond', serif;
+    padding: 50px;
+    background-color: #909090;
+    color: white;    
+}
